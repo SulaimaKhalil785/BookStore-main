@@ -6,9 +6,9 @@
 
 ## 🚀 Features
 
-* 🛍️ **Book Listings** – Display books with images, descriptions, price, and stock info.
+* 🛙️ **Book Listings** – Display books with images, descriptions, price, and stock info.
 * 🔍 **Search & Filter** – Filter books by category, title, or author.
-* 🧺 **Shopping Cart** – Add books to cart, adjust quantities, and calculate total price.
+* 🫚 **Shopping Cart** – Add books to cart, adjust quantities, and calculate total price.
 * 📦 **Stock Management** – Stock auto-updates after purchase, shows "OUT OF STOCK" when unavailable.
 * 📂 **Dynamic Categories** – Categories fetched and managed from the backend.
 * 🧑‍💼 **Admin Dashboard** – Add, edit, or delete books and manage inventory.
@@ -44,10 +44,10 @@
 
 ```bash
 bookstore/
-├── client/        # React frontend
-├── server/        # Express backend
-├── .env           # Environment variables
-├── README.md
+├── frontend/       # React frontend
+├── backend/        # Express backend
+├── .DS_Store       # System file (can be ignored or added to .gitignore)
+├── README.md       # Project documentation
 ```
 
 ---
@@ -57,14 +57,14 @@ bookstore/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/bookstore.git
+   git clone https://github.com/SulaimaKhalil785/bookstore-main
    ```
 
-2. **Navigate to client and server folders and install dependencies**
+2. **Navigate to frontend and backend folders and install dependencies**
 
    ```bash
-   cd client && npm install
-   cd ../server && npm install
+   cd frontend && npm install
+   cd ../backend && npm install
    ```
 
 3. **Configure .env files** for both frontend and backend:
